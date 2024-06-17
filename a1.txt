@@ -1,0 +1,40 @@
+Section A
+
+1. a1 directory is created and changed into.
+
+2. /mnt/scratch/shwethalsu24
+
+3. uid=1272(shwethalsu24) gid=1273(shwethalsu24) groups=1273(shwethalsu24)
+
+4. meminfo(filename in /proc/ where memory information is found)
+cpuinfo (filename in /proc/ where cpu information is found)
+
+5. MemTotal:73080640 kB
+
+6. Processors: 256 (number of processors)
+   Architecture : ppc64le
+   model : IBM,8247-22L 
+   speed:3.425 GHz (processor speed in GHz)
+
+7. os-release ( filename in /etc/ containing OS version information)
+NAME="Red Hat Enterprise Linux" (OS name)
+VERSION="8.6 (Ootpa)" (OS version)
+
+Section B
+
+8. Avg: 18.6652
+
+9. 460.04
+
+
+10. Counts Droplocation
+    39909  236.0
+    37140  237.0
+    36990  161.0
+    33678  230.0
+    28506  170.0
+    27895  162.0
+    27485  48.0
+    26782  142.0
+    25051  239.0
+    24609  234.0
