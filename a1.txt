@@ -11,7 +11,7 @@ cpuinfo (filename in /proc/ where cpu information is found)
 
 5. MemTotal:73080640 kB
 
-6. Processors: 255 (number of processors)
+6. Processors: 256 (number of processors)
    Architecture : ppc64le
    model : IBM,8247-22L 
    speed:3.425 GHz (processor speed in GHz)
