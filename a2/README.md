@@ -12,13 +12,17 @@
 Case 1 - If the user inputs the wrong directory when prompted the command throws an error message and stops running. The terminal output of a this situation has been pasted below.
 
 [shwethalsu24@sjsu a2]$ ~/cs131/a2/dupe.sh
+
 Enter directory to search for duplicate files:
+
 checkdirectory
+
 The directory asked for doesn't exist.
 
 Case 2 - If there are no duplicates in the input directory the output is as following.
 
 [shwethalsu24@sjsu cs131]$ dupe.sh
+
 Enter directory to search for duplicate files:
 
 trial
@@ -28,13 +32,19 @@ Duplicates check completed.
 Case 3 - If there are any duplicates, the terminal output is pasted below. The command retains or removes files based on user's choice of either y or n.
 
 [shwethalsu24@sjsu a2]$ ./dupe.sh
-Enter directory to search for duplicate files:
-test
-Duplicate file found: /mnt/scratch/shwethalsu24/cs131/a2/test/test2/r.txt (Origi                                                                                                             nal file: /mnt/scratch/shwethalsu24/cs131/a2/test/q.txt)
-Do you want to delete the duplicate file? (y/n):
-n
-Skipped file: /mnt/scratch/shwethalsu24/cs131/a2/test/test2/r.txt
-Duplicates check completed.
 
+Enter directory to search for duplicate files:
+
+test
+
+Duplicate file found: /mnt/scratch/shwethalsu24/cs131/a2/test/test2/r.txt (Original file: /mnt/scratch/shwethalsu24/cs131/a2/test/q.txt)
+
+Do you want to delete the duplicate file? (y/n):
+
+n
+
+Skipped file: /mnt/scratch/shwethalsu24/cs131/a2/test/test2/r.txt
+
+Duplicates check completed.
 
 5. IMPROVEMENTS: Presently, this script is compatible with .txt files. Future work involves incorporating other formats of files like .csv files if possible.
