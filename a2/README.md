@@ -34,4 +34,5 @@ n
 Skipped file: /mnt/scratch/shwethalsu24/cs131/a2/test/test2/r.txt
 Duplicates check completed.
 
+
 5. IMPROVEMENTS: Presently, this script is compatible with .txt files. Future work involves incorporating other formats of files like .csv files if possible.
