@@ -20,7 +20,9 @@ Case 2 - If there are no duplicates in the input directory the output is as foll
 
 [shwethalsu24@sjsu cs131]$ dupe.sh
 Enter directory to search for duplicate files:
+
 trial
+
 Duplicates check completed.
 
 Case 3 - If there are any duplicates, the terminal output is pasted below. The command retains or removes files based on user's choice of either y or n.
