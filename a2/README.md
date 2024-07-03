@@ -1,4 +1,4 @@
-                                                         Dupe.sh README.md
+                                                         dupe.sh README.md
                                                          
 
 1. PURPOSE: Command dupe.sh is a shell script which searches for duplicate text files in the user input directory. After conducting a thorough search of the files present in the directory and its subdirectories, any duplicate files are brought to the notice of the user and are deleted only if the user agrees to it.
