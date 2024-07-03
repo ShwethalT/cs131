@@ -5,7 +5,7 @@ read dir
 
 if [ ! -d "$dir" ]; then
    echo "The directory asked for doesn't exist."
-   exit 1
+   exit 
 fi
 
 #function to find all files in the given directory and its subdirectories
@@ -56,5 +56,5 @@ done
 
 echo "Duplicates check completed."
 
-exit 0
+exit 
 
