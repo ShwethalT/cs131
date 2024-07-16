@@ -1,0 +1,25 @@
+##Preparation Task##
+
+0) cat /etc/passwd > a3.txt
+
+##SED##
+
+1) cd taxidata   ##changing directory into taxidataset
+   sed -n '/^1\.0,/p' 2019-10.csv > vendor2.csv   ##Collect the lines with Vendor 1.0 (vendorid) into the file named "vendor2.csv", using sed command
+   wc vendor2.csv >> /home/shwethalsayeeram_trikannad/a3/a3.txt   ##result of wc vendor2.csv is saved in a3.txt file
+
+2) sed 's/[":-]//g' 2019-10.csv > no-separators.csv   ##removal of hyphen,colon and double quotes from original 2019-10.csv file and saving into new csv file
+   head -n 10 no-separators.csv >> /home/shwethalsayeeram_trikannad/a3/a3.txt   ##saving results into a3.txt file
+   
+3) sed 's/\([0-9]*\)\.[0-9]*/\1/g' no-separators.csv > no-fractions.csv   ##removing all fractions and keeping only whole numbers from no-separators.csv and saving to new csv file
+   head -n 10 no-fractions.csv >> /home/shwethalsayeeram_trikannad/a3/a3.txt    ##saving results into a3.txt file
+  
+##AWK##
+
+4) awk -F "," '$17>=10.00 { tips[$14]++ } END{ for (t in tips) print t , tips[t] }' 2019-10.csv > /home/shwethalsayeeram_trikannad/a3/results.txt
+
+##this command selects only those lines where the total amount is more than or equal to 10.0 and then creates an associative array of tips and their counts. this array is printed in the specified format of tip amount <space> frequency in the results.txt file.
+
+5) sort -k2 -nr /home/shwethalsayeeram_trikannad/a3/results.txt | head -n 6 >> /home/shwethalsayeeram_trikannad/a3/a3.txt 
+
+##this command sorts the results.txt file based on the second column using -k2 option and then -nr numerically reverses the order to descending. This output is piped into a head command showing the top 6 tips and they are saved in a3.txt file. Top 6 is chosen as the most common is 0 tips. 
