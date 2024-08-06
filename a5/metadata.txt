@@ -1,0 +1,50 @@
+Number of entries: 8000
+Number of features: 8
+Features:
+Size, Weight, Sweetness, Softness, HarvestTime, Ripeness, Acidity, Quality
+
+Descriptive stats for numerical columns:
+              Size       Weight    Sweetness     Softness  HarvestTime     Ripeness      Acidity
+count  8000.000000  8000.000000  8000.000000  8000.000000  8000.000000  8000.000000  8000.000000
+mean     -0.747802    -0.761019    -0.770224    -0.014441    -0.751288     0.781098     0.008725
+std       2.136023     2.015934     1.948455     2.065216     1.996661     2.114289     2.293467
+min      -7.998074    -8.283002    -6.434022    -6.959320    -7.570008    -7.423155    -8.226977
+25%      -2.277651    -2.223574    -2.107329    -1.590458    -2.120659    -0.574226    -1.629450
+50%      -0.897514    -0.868659    -1.020673     0.202644    -0.934192     0.964952     0.098735
+75%       0.654216     0.775491     0.311048     1.547120     0.507326     2.261650     1.682063
+max       7.970800     5.679692     7.539374     8.241555     6.293280     7.249034     7.411633
+
+Range for each numerical column:
+Size           15.968874
+Weight         13.962694
+Sweetness      13.973395
+Softness       15.200875
+HarvestTime    13.863288
+Ripeness       14.672189
+Acidity        15.638610
+
+Unique values count for individual columns:
+Size           8000
+Weight         8000
+Sweetness      8000
+Softness       8000
+HarvestTime    8000
+Ripeness       8000
+Acidity        8000
+Quality           2
+
+
+Value counts for column Quality:
+Quality
+Good    4006
+Bad     3994
+
+Missing values per column:
+Size           0
+Weight         0
+Sweetness      0
+Softness       0
+HarvestTime    0
+Ripeness       0
+Acidity        0
+Quality        0
